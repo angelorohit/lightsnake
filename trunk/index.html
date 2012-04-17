@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>Light Snake</title>
+  <meta name="description" content="" />
+  <meta name="author" content="angelo" />
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="stylesheet" href="css/mainstyle.css" type="text/css" />
+    
+  <script type="text/javascript" src="js/snake.js"></script>  
+  <script type="text/javascript" src="js/game.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>     
+</head>
+
+<body>  
+	<header>
+		<h1>Light Snake</h1>
+	</header>
+	<div style="position:relative;">									
+		<canvas id="maincanvas" width="320px" height="480px">			
+			<div>
+				<p>Your web-browser does not appear to support HTML5.</p>
+				<p>Please consider switching to one of these great web-browsers:</p>
+				<p><a href="https://www.google.com/chrome">Chrome</a></p>
+				<p><a href="http://www.apple.com/safari">Safari</a></p>
+				<p><a href="http://www.mozilla.org/en-US/firefox">Firefox</a></p>
+			</div>					
+		</canvas>
+		<div id="pauseoverlay">
+			<div class="pauseoverlay-text">PAUSED</div>
+		</div>	
+		<audio id="music" autoplay="true" loop="loop" onloadeddata="audioLoaded()">			
+  			<source src="resources/iamarobot.mp3" type="audio/mpeg" />
+  			<source src="resources/iamarobot.ogg" type="audio/ogg" />
+		</audio>
+	</div>		 	     
+	<div class="rectanglestrip">	
+		<div id="aboutbtn" class="button orange fadeInUp" onclick="aboutClicked()">About</div>
+		<div id="howtoplaybtn" class="button orange fadeInUp" onclick="howtoplayClicked()">How to play</div>
+		<div id="soundbtn" class="button orange fadeInUp" onclick="toggleSound()">Sound is ON</div>
+		<div class="button" style="background: #222222;"><a href="http://angelorohit.blogspot.com" target="_blank">angelorohit.blogspot.com</a></div>		
+	</div>
+	<div id="infocontent" class="contentbox">
+		<div id="desc" style="text-align:left;"></div>				
+		<div class="button white" style="margin-top:20px;" onclick="closeInfoContent()">Close</div>   
+	</div>	
+</body>
+</html>
