@@ -15,9 +15,10 @@ Try not to be overzealous though, because if your snake collides with itself, it
 # Music Credits #
 I borrowed the music track from a great chiptune artist - Ultrasyd.
 Do check out his music. It's simply amazing!
-Title: 'I am a Robot'
-Artist: Ultrasyd
-Website: [ultrasyd.free.fr](http://ultrasyd.free.fr/ "ultrasyd.free.fr")
+
+* Title: 'I am a Robot'
+* Artist: Ultrasyd
+* Website: [ultrasyd.free.fr](http://ultrasyd.free.fr/ "ultrasyd.free.fr")
 
 # Compatible Browsers #
 #### Light Snake has been tested on: ####
