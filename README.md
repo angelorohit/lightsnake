@@ -1,6 +1,6 @@
 # Introduction #
 Light Snake is a neon-themed game of snake written as an experiment. The aim of this project was to learn more about HTML5.
-Now that the project is done, I hope the original source will be useful to anyone who wishes to dabble in HTML5. 
+Now that the project is done, I hope the original source will be useful to anyone who wishes to dabble in HTML5. Do note that the code is messy as this was part of a hackathon and was put together in a day.
 The game can be played at: [lightsnakegame.appspot.com](http://lightsnakegame.appspot.com "lightsnakegame.appspot.com") 
 
 # How to play #
