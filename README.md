@@ -32,3 +32,5 @@ Feel free to send any feedback, issues or suggestions to:
 angelorohit[at]gmail[dot]com
 
 ###Enjoy!###
+
+![lightsnake on Make A Gif](http://cdn.makeagif.com/media/8-28-2014/n9jlgC.gif)
